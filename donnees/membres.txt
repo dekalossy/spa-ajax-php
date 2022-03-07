@@ -1,0 +1,6 @@
+admin;admin;admin@amtfilm.com;a642a77abd7d4f51bf9226ceaf891fcbb5b299b8;Montreal
+FOFANA;TALIBY;fofanataliby@yahoo.fr;f638e2789006da9bb337fd5689e37a265a70f359;LACHINE Montreal;Québec;H8S 3N1;Membre ; A
+taliby;dibilan;d.kalossy@gmail.com;04f081741466827161bede82a374af0ec9a39e31;LACHINE Montreal;Québec;h8s 3n1;Membre ; A
+fofana;Antonio;antonio@aaa.ci;a642a77abd7d4f51bf9226ceaf891fcbb5b299b8;LACHINE Montreal;Québec;h8s 3n1;Membre ; A
+tavares;antonio;antonio@ccc.ci;a642a77abd7d4f51bf9226ceaf891fcbb5b299b8;LACHINE Montreal;Québec;H8S 3N1;Membre ; A
+FOFANA;TALIBY;david.kalossy@gmail.com;a642a77abd7d4f51bf9226ceaf891fcbb5b299b8;LACHINE Montreal;Québec;h8s 3n1;Membre ; A

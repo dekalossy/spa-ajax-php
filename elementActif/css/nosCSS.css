@@ -1,0 +1,314 @@
+
+.overflow
+{   background:black;
+    height: 99px; 
+    overflow: auto;
+    padding:1rem;
+    font-size:.7rem;
+    margin-top: -7%;
+    text-align: center;
+    
+    
+}
+
+
+
+/*******SCROLLBAR 1******** Remarque que cela change même au niveau du navigateur à droite/
+::-webkit-scrollbar {
+  width: .7rem; 
+  height: .5rem; 
+  background: #ffffff;
+  border-radius: .3rem; }
+::-webkit-scrollbar-thumb { 
+  background-color: gray; 
+  -webkit-border-radius: 1ex; }   *****/
+
+/*******SCROLLBAR 2******** Remarque que cela change même au niveau du navigateur à droite
+  /* contenant  */
+.top-nav li {
+   color:white;
+}
+
+::-webkit-scrollbar {
+  width: .7rem;
+  background: #ffffff;
+  border-radius: .3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 1ex;
+}
+ 
+/* bouton */
+::-webkit-scrollbar-thumb {
+  background:#F6881F; 
+  border-radius: 10px;
+}
+
+/* survol du bouton */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+/**************fin scroll bar *****************************/
+
+.containerAM
+{ width: 100%;
+  padding-right: 15px;
+  padding-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.signup-contentAM {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column; 
+  }
+
+
+
+.products-box {
+    background: #161616;
+    padding: 0 0em 1em 0em;
+}
+
+
+
+
+
+.section {
+  margin-left: 0.6rem
+}
+
+.images_1_of_5 h3 {
+    display: block;
+    padding: 0.5em 0 0.5em 0;
+}
+
+
+/*************************FOOTER***********************/
+
+.footContent{
+color: #fff;
+}
+
+.footContent span{
+color: #F6881F;
+}
+
+.footContent li a 
+{
+  display: inline-block;
+  margin: 20px;
+  filter: invert(1);
+  transform: scale(0.6)
+  width:.3rem;
+  height:.3em;
+
+}
+
+.footContent ul
+{
+  justify-content: center;
+}
+
+/***************MODAL***********************/
+.modalCol12
+{
+  margin: 0;
+}
+.modal-content
+{
+  background-color: #fff0;
+}
+.modal .close{
+
+  right: 80px !important;
+  top: -50px !important;
+}
+
+.modal .close span
+{
+   color: #f6881f;
+}
+
+.btn-cta
+{
+  background-color: #F6881F;
+}
+
+#submit {
+    background: #ff6801;
+    color: #fff;
+    font-family: 'Poppins';
+
+}
+
+
+#reset {
+    background: #737070;
+    color: #fff;
+    margin-right: 8px;
+    border: none;
+    
+  }
+
+  #reset:hover {
+  background: #ff6801;
+    color: #fff;
+  
+
+ }
+
+
+.submit {
+    width: 140px;
+    height: 40px;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.erreur {
+    font-size: .8em;
+    background: #f6c8c891;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    cursor: progress;
+  }
+
+
+/********Confirmation succes et echec******/
+
+.confirmation
+{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.message{
+  position: absolute;
+  width: 50%;
+  min-height: 40%;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 0px 14px 6px #F6881F;
+  justify-content: center;
+  display: flex;
+  background-image: url(../images/h1am.jpg);
+  background-size: cover;
+}
+
+.msgbox
+{
+  background: #ffffffb3;
+  margin: 3em;
+  box-sizing: border-box;
+  width: 30em;
+  border-radius: 1em;
+}
+
+
+.image_ok
+{
+  position: relative;
+  top: -30px;
+}
+
+.image_ok span
+{
+  font-size:6rem;
+  width: 4rem;
+}
+
+.contenu_box button
+{
+  width: 50%;
+  background:#F6881F;
+  border: none;
+  line-height: 2.5em;
+  border-radius: 5px;
+  margin:10% auto;
+  outline: none;
+}
+
+.contenu_box a
+{
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.boxGestionMembres
+{
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 0px 14px 6px #F6881F;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../images/h1am.jpg);
+  background-size: cover;
+  min-height: 40vh;
+}
+
+.boxGestionFilms
+{
+   box-sizing: border-box;
+  text-align: center;
+  box-shadow: 2px 0px 14px 6px #F6881F;
+  justify-content: center;
+  padding:1.2rem;
+  flex-direction: column;
+  background-image: url(../images/h3am.jpg);
+  background-size: cover;
+}
+
+ #divEnlever, #listeMembres, #enregFilms, #modiFilms, #supFilms, #listerFilms{
+  top:20%;
+  left:35%;
+  display:none; 
+}
+
+
+.enregistrementFilms, .supressionFilms, .modificationFilms, .lister{
+    background: #ff6801;
+    color: #fff;
+    border:none;
+    border-radius:.4rem;
+    box-shadow:3px 3px 3px #000;
+    outline:none;
+    font-family: "Work Sans";
+    font-size:.8rem;
+    width:7rem;
+
+}
+
+.formFilms, 
+{
+  background-color: #ffffff85;
+  padding: .7rem
+}
+
+
+
+
